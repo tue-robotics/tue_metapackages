@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hero_dev</name>
+  <version>0.0.0</version>
+  <description>The hero_dev metapackage, contains everything a hero development pc needs</description>
+
+  <maintainer email="amigo@todo.todo">amigo</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>tmc_desktop_full</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+
+  # tue_middleware
+  <exec_depend>diagnostic_aggregator</exec_depend>
+  <exec_depend>node_alive</exec_depend>
+  <exec_depend>cb_base_navigation</exec_depend>
+  <exec_depend>dwa_local_planner</exec_depend>
+  <exec_depend>gmapping</exec_depend>
+  <exec_depend>ed</exec_depend>
+  <exec_depend>ed_object_models</exec_depend>
+  <exec_depend>ed_perception</exec_depend>
+  <exec_depend>ed_perception_models</exec_depend>
+  <exec_depend>ed_gui_server</exec_depend>
+  <exec_depend>ed_localization</exec_depend>
+  <exec_depend>ed_navigation</exec_depend>
+  <exec_depend>ed_robocup</exec_depend>
+  <exec_depend>ed_sensor_integration</exec_depend>
+  <exec_depend>ed_people_recognition</exec_depend>
+  <exec_depend>image_recognition</exec_depend>
+  <exec_depend>action_server</exec_depend>
+  <exec_depend>people_recognition</exec_depend>
+  <exec_depend>conversation_engine</exec_depend>
+
+  <exec_depend>tue_mobile_ui</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>viz</exec_depend>
+
+  # robocup
+  # tue robocup at home
+    <exec_depend>tue_robocup</exec_depend>
+    <exec_depend>robocup_knowledge</exec_depend>
+  <exec_depend>hero_skills</exec_depend>
+
+  <exec_depend>hero_dashboard</exec_depend>
+  <exec_depend>hero_display</exec_depend>
+
+  # hero-user
+    # robot-user
+      # robot-demo-user
+      <exec_depend>tue_teleop_keyboard</exec_depend>
+
+  # hero-start
+  <exec_depend>hmi</exec_depend>
+  <exec_depend>text_to_speech</exec_depend>
+  <exec_depend>hero_bringup</exec_depend>
+  <exec_depend>hero_description</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rosbridge_server</exec_depend>
+  <exec_depend>tue_mobile_ui</exec_depend>
+  <exec_depend>node_alive</exec_depend>
+  <exec_depend>head_ref</exec_depend>
+
+  <exec_depend>nl_robot_console</exec_depend>
+  <exec_depend>ed_rviz_plugins</exec_depend>
+</package>

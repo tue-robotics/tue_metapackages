@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hero2</name>
+  <version>0.0.0</version>
+  <description>The hero2 metapackage</description>
+
+  <maintainer email="amigo@todo.todo">amigo</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  # hero
+    # hero-demo
+      # hero-demo-user
+        # robot-demo-user
+          <exec_depend>tue_teleop_keyboard</exec_depend>
+        <exec_depend>hero_bringup</exec_depend>
+        <exec_depend>hero_description</exec_depend>
+
+  <exec_depend>rgbd</exec_depend>
+  <exec_depend>upower_ros</exec_depend>
+
+  # tue_middleware
+    <exec_depend>diagnostic_aggregator</exec_depend>
+    <exec_depend>node_alive</exec_depend>
+    <exec_depend>cb_base_navigation</exec_depend>
+    <exec_depend>dwa_local_planner</exec_depend>
+    <exec_depend>gmapping</exec_depend>
+    <exec_depend>ed</exec_depend>
+    <exec_depend>ed_object_models</exec_depend>
+    <exec_depend>ed_perception</exec_depend>
+    <exec_depend>ed_perception_models</exec_depend>
+    <exec_depend>ed_gui_server</exec_depend>
+    <exec_depend>ed_localization</exec_depend>
+    <exec_depend>ed_navigation</exec_depend>
+    <exec_depend>ed_robocup</exec_depend>
+    <exec_depend>ed_sensor_integration</exec_depend>
+    <exec_depend>ed_people_recognition</exec_depend>
+    <exec_depend>image_recognition</exec_depend>
+    <exec_depend>action_server</exec_depend>
+    <exec_depend>people_recognition</exec_depend>
+    <exec_depend>conversation_engine</exec_depend>
+
+  # tue robocup at home
+    <exec_depend>tue_robocup</exec_depend>
+    <exec_depend>robocup_knowledge</exec_depend>
+  <exec_depend>hero_skills</exec_depend>
+  <exec_depend>telegram_ros</exec_depend>
+  <exec_depend>image_recognition_openpose</exec_depend>
+</package>
