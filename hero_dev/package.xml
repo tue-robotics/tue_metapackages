@@ -26,4 +26,7 @@
 
   <exec_depend>nl_robot_console</exec_depend> #should we also add this to the robots? for convenience?
 
+  <export>
+     <metapackage />
+  </export>
 </package>

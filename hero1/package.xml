@@ -29,4 +29,8 @@
   <exec_depend>hsrb_full</exec_depend>
 
   <exec_depend>tue_teleop_keyboard</exec_depend>
+
+  <export>
+     <metapackage />
+  </export>
 </package>
