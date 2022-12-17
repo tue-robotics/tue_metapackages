@@ -15,7 +15,9 @@
 
   <!-- simulator -->.
   <exec_depend>tmc_desktop_full</exec_depend>
-  
+
+  <exec_depend>hero_start</exec_depend>
+
   <exec_depend>tue_middleware</exec_depend>
   <exec_depend>tue_mobile_ui</exec_depend>
 
