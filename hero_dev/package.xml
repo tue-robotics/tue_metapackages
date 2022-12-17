@@ -10,12 +10,8 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>hero1</exec_depend>
-  <exec_depend>hero2</exec_depend>
-
   # simulator
   <exec_depend>tmc_desktop_full</exec_depend>
-  <exec_depend>gazebo_plugins</exec_depend>
 
   <exec_depend>rviz</exec_depend>
   <exec_depend>viz</exec_depend>
