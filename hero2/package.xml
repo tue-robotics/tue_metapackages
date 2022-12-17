@@ -24,27 +24,6 @@
   <exec_depend>rgbd</exec_depend>
   <exec_depend>upower_ros</exec_depend>
 
-  # tue_middleware
-    <exec_depend>diagnostic_aggregator</exec_depend>
-    <exec_depend>node_alive</exec_depend>
-    <exec_depend>cb_base_navigation</exec_depend>
-    <exec_depend>dwa_local_planner</exec_depend>
-    <exec_depend>gmapping</exec_depend>
-    <exec_depend>ed</exec_depend>
-    <exec_depend>ed_object_models</exec_depend>
-    <exec_depend>ed_perception</exec_depend>
-    <exec_depend>ed_perception_models</exec_depend>
-    <exec_depend>ed_gui_server</exec_depend>
-    <exec_depend>ed_localization</exec_depend>
-    <exec_depend>ed_navigation</exec_depend>
-    <exec_depend>ed_robocup</exec_depend>
-    <exec_depend>ed_sensor_integration</exec_depend>
-    <exec_depend>ed_people_recognition</exec_depend>
-    <exec_depend>image_recognition</exec_depend>
-    <exec_depend>action_server</exec_depend>
-    <exec_depend>people_recognition</exec_depend>
-    <exec_depend>conversation_engine</exec_depend>
-
   # tue robocup at home
     <exec_depend>tue_robocup</exec_depend>
     <exec_depend>robocup_knowledge</exec_depend>
