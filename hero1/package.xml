@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<package format="2">
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>hero1</name>
   <version>0.0.0</version>
   <description>The hero1 metapackage</description>
@@ -10,16 +13,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  # hero-start
-  <exec_depend>hmi</exec_depend>
-  <exec_depend>text_to_speech</exec_depend>
-  <exec_depend>hero_bringup</exec_depend>
-  <exec_depend>hero_description</exec_depend>
-  <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>rosbridge_server</exec_depend>
-  <exec_depend>tue_mobile_ui</exec_depend>
-  <exec_depend>node_alive</exec_depend>
-  <exec_depend>head_ref</exec_depend>
+  <exec_depend>hero_start</exec_depend>
 
   <exec_depend>laser_filters</exec_depend>
   <exec_depend>dragonfly_speech_recognition</exec_depend>
@@ -31,6 +25,6 @@
   <exec_depend>tue_teleop_keyboard</exec_depend>
 
   <export>
-     <metapackage />
+     <metapackage/>
   </export>
 </package>
