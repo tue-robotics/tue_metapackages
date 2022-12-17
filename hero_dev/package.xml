@@ -10,19 +10,19 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  # simulator
+  <!-- simulator -->.
   <exec_depend>tmc_desktop_full</exec_depend>
+  
+  <exec_depend>tue_middleware</exec_depend>
+  <exec_depend>tue_mobile_ui</exec_depend>
 
   <exec_depend>rviz</exec_depend>
   <exec_depend>viz</exec_depend>
   <exec_depend>ed_rviz_plugins</exec_depend>
 
-  <exec_depend>hero_dashboard</exec_depend>
-  <exec_depend>hero_display</exec_depend> # How does this get on hero1?
-
-  <exec_depend>nl_robot_console</exec_depend> #should we also add this to the robots? for convenience?
+  <exec_depend>nl_robot_console</exec_depend>
 
   <export>
-     <metapackage />
+     <metapackage/>
   </export>
 </package>
